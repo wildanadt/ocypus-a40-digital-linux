@@ -154,9 +154,9 @@ systemctl status ocypus-lcd.service
 - **Product ID**: 0x434d
 - **Interface**: HID (Human Interface Device)
 
-### Temperature Range
-- **Display Range**: 0-199°C (32-390°F)
-- **Automatic Handling**: Firmware automatically displays leading '1' for temperatures > 99
+### Temperature Display
+- **Format**: 2-digit display with temperature unit indicator
+- **Units**: Supports both Celsius (°C) and Fahrenheit (°F)
 
 ### Sensor Detection
 The script uses psutil to detect temperature sensors. Common sensor names include:
