@@ -2,6 +2,23 @@
 
 A Python-based driver for controlling the LCD display on Ocypus Iota A40 coolers in Linux environments, including Proxmox.
 
+## ⚠️ Important Disclaimers
+
+- **Hardware Compatibility**: This project was created and tested specifically with the **Ocypus Iota A40** cooler only
+- **Limited Testing**: The driver has only been tested on the author's specific hardware configuration
+- **Hardware Detection**: The device appears in `lsusb` as:
+  ```
+  ID 1a2c:434d China Resource Semico Co., Ltd USB Gaming Keyboard
+  Manufacturer: SEMICO
+  Product: USB Gaming Keyboard
+  ```
+- **Use at Your Own Risk**: While the driver is designed to be safe, use it at your own discretion
+- **Community Contribution**: This is a community-created project, not officially supported by Ocypus
+
+## Author's Note
+
+This driver was developed by a community member specifically for the Ocypus Iota A40 cooler. The hardware identification shows as a "USB Gaming Keyboard" from China Resource Semico Co., Ltd, which is the actual manufacturer of the LCD controller used in the Ocypus A40.
+
 ## Features
 
 - **Auto-detection**: Automatically detects and connects to working HID interfaces
@@ -178,7 +195,7 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 ## License
 
-This project is open source. Please check the repository for license details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
